@@ -24,7 +24,7 @@ const achievements = [
       <h3>🧑🏻‍💻 CodeChef Badges 🧑🏻‍💻</h3>
       <div className="codechef-badges">
         {codechef_badges.map((i, index) => (
-  <img key={index} src={`/images/${i}`} alt={`badge-${index}`} />
+  <img key={index} src={`${process.env.PUBLIC_URL}/images/${i}`} alt={`badge-${index}`} />
 ))}
 
       </div>

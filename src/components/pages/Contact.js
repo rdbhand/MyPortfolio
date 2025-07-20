@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import '../../styles/Contact.css';
 function Contact(){
   return(
@@ -20,11 +19,11 @@ function Contact(){
 
       <div className="contact-info">
 
-        <a href="mailto:rdbhand308@gmail.com"><img src="/images/email.png" alt="email"></img></a>
-        <a href="https://linkedin.com/in/rameshwar-bhand-35b980269"><img src="/images/linkedin.png" alt="gfg"></img></a>
-        <a href="https://github.com/rdbhand"><img src="/images/github.png" alt="github"></img></a>
-        <a href="https://www.codechef.com/users/rdbhand308"><img src="/images/codechef.png" alt="codechef"></img></a>
-        <a href="https://www.geeksforgeeks.org/user/rdbhan3y3v/"><img src="/images/gfg.png" alt="gfg"></img></a>
+        <a href="mailto:rdbhand308@gmail.com"><img src={`${process.env.PUBLIC_URL}/images/email.png`} alt="email"></img></a>
+        <a href="https://linkedin.com/in/rameshwar-bhand-35b980269"><img src={`${process.env.PUBLIC_URL}/images/linkedin.png`} alt="gfg"></img></a>
+        <a href="https://github.com/rdbhand"><img src={`${process.env.PUBLIC_URL}/images/github.png`} alt="github"></img></a>
+        <a href="https://www.codechef.com/users/rdbhand308"><img src={`${process.env.PUBLIC_URL}/images/codechef.png`} alt="codechef"></img></a>
+        <a href="https://www.geeksforgeeks.org/user/rdbhan3y3v/"><img src={`${process.env.PUBLIC_URL}/images/gfg.png`} alt="gfg"></img></a>
         
       </div>
     </div>

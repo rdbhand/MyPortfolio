@@ -5,7 +5,7 @@ function Home(){
     <div className="home-container">
       <section className="main">
         <div className="profile-image">
-          <img src="/images/profile_pic.jpg" alt="Profile" height={200} />
+          <img src={`${process.env.PUBLIC_URL}/images/profile_pic.jpg`} alt="Profile" height={200} />
         </div>
         <h1>Hi👋🏻, I'm <span className="highlight">"Rameshwar Bhand"</span></h1>
         <h2>A Passionate Full Stack Developer</h2>
