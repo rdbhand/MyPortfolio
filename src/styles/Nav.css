@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding :10px;
+  border:2px solid rgb(96, 87, 87);
+  background-color: rgb(0, 0, 0);
+}
+
+a{
+  color:white;
+  text-decoration: none;
+  padding :5px;
+  font-weight: bolder;
+}
+
+a:active{
+  color:yellow;
+}
+
+a:hover{
+  color: rgb(249, 120, 120);
+  
+}
+
+body{
+  background-color: rgb(240, 226, 171);
+}
+
+
+
+.nav-box{
+  width: 100vw;
+}

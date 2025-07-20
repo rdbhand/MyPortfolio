@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.about-container{
+  line-height: 1.5;
+  font-size: 20px;
+  padding: 10px;
+  min-height: 88vh;
+  text-align: justify;
+}
+
+.about-container h2{
+  color:rgb(6, 70, 49);
+}
+
+.about-content{
+  color:rgb(6, 70, 49);
+  width: 80vw;
+  margin: auto;
+}
+
+.about-container strong{
+  color:rgb(6, 70, 49);;
+}
