@@ -7,6 +7,7 @@
 
 body{
   background-color: rgb(255, 255, 255);
+    overflow: scroll;
 }
 .main{
   color:rgb(151, 97, 4);
@@ -44,10 +45,13 @@ p{
 .skills-grid{
   display: grid;
   grid-template-columns: 50% 50% ;
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
 
 .skills{
-  width: 60vw;
+  width: 30vw;
   margin: auto;
 }
 
@@ -60,11 +64,14 @@ p{
 .skills-grid li{
   font-weight: bolder;
   color: rgb(4, 49, 67);
-  font-size: 25px;
+  font-size: 2;
   padding:5px;
-  margin:10px;
+  margin:5px;
   background-color: rgb(255, 255, 255);
+  border: 3px solid black;
   border-radius: 5px;
+  list-style-type: none;
+
 }
 
 .highlight{

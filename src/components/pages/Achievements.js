@@ -5,7 +5,7 @@ const achievements = [
     
     {
       title: '2⭐ Coder at CodeChef',
-      description: 'Achieved a 3-star rating by solving competitive problems.',
+      description: 'Achieved a 2-star rating by solving competitive problems.',
       year: '2025',
     },
     {

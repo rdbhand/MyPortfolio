@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../../styles/Home.css';
 function Home(){
   return (
@@ -15,10 +15,10 @@ function Home(){
           I build web applications using modern technologies like React, Java, and C++.
           I'm always eager to learn and take on new challenges.
         </p>
-        <div className="cta-buttons">
+        {/* <div className="cta-buttons">
           <Link to="/projects" className="btn">View Projects</Link>
           <Link to="/contact" className="btn btn-outline">Contact Me</Link>
-        </div>
+        </div> */}
       </section>
 
       <section className="skills">

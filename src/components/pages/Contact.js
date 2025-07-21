@@ -6,7 +6,7 @@ function Contact(){
       <h2>📧Contact Me📞</h2>
       <p>Feel free to reach out for collaborations or just a friendly hello 👋</p>
 
-      <form className="contact-form">
+      {/* <form className="contact-form">
        <span>Name :</span> <input type="text" name="name" placeholder="Your Name" required />
         <br/>
 
@@ -15,7 +15,7 @@ function Contact(){
         <span>Message :</span> <br/><textarea name="message" placeholder="Your Message" cols="30" rows="3" required></textarea>
         <br/>
         <button type="submit">Send Message</button>
-      </form>
+      </form> */}
 
       <div className="contact-info">
 
