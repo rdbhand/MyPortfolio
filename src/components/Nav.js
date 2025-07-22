@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Achievements from './pages/Achievements';
+import Projects from './pages/Projects';
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 
 function Nav(){
@@ -26,6 +27,7 @@ function Nav(){
       <Route path="/about" element={<About/>}></Route>
       <Route path="/contact" element={<Contact/>}></Route>
       <Route path="/achievements" element={<Achievements/>}></Route>
+      <Route path="/projects" element={<Projects/>}></Route>
      
     </Routes>
     </BrowserRouter>
